@@ -1,16 +1,15 @@
 # Analysis-of-European-Social-Survey-form-2002-to-2016
 ## Download data: 
-from the ESS website, we download each wave sep-
+From the ESS website, we download each wave sep-
 arately from: http://www.europeansocialsurvey.org/data/round- index.html.
-For country level data, we download the country level contextual data
-from 2016 from here: http://www.europeansocialsurvey.org/data/multilevel/ guide/bulk.html
+For country level data, we download the country level contextual data from 2016 from here: http://www.europeansocialsurvey.org/data/multilevel/ guide/bulk.html.
 We downloaded the Stata files.
 ## Importing data: 
-for this, we use the ”haven” package and one ”for loop”.
+For this, we use the ”haven” package and one ”for loop”.
 ## Merging data: 
-to do this, we select the variables we want from each wave and the country level. We use ”rbind()” to merge the wave data and ”full join()”.
+To do this, we select the variables we want from each wave and the country level. We use ”rbind()” to merge the wave data and ”full join()”.
 ## Cleaning data: 
-we are checking variables to know the categorical variables and continuous variables. After, we are coding the categorical
+We are checking variables to know the categorical variables and continuous variables. After, we are coding the categorical
 variables as factor and coding too the continuous variables. And the end, we removed the missing values.
 ## Plotting graphs: 
-we are plotting some graphs to answer our research questions.
+We are plotting some graphs to answer our research questions.
